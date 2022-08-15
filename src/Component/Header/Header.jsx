@@ -3,6 +3,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import css from './Header.module.css'
 import logo from '../img/logo.png'
+import { Button } from 'react-bootstrap';
 
 function Header() {
   return (
@@ -17,7 +18,11 @@ function Header() {
             <Nav.Link className={css.n_links} href="#pricing">Pricing</Nav.Link>
             <Nav.Link className={css.n_links} href="#blog">Blog</Nav.Link>
           </Nav>
+          
         </Navbar.Collapse>
+        <Nav className="justify-content-end">
+          <Button className={css.n_btn} variant="outline-light">Contact</Button>
+          </Nav>
       </Container>
     </Navbar>
   );

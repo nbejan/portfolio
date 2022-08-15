@@ -3,30 +3,3 @@
     padding: 120px;
 }
 
-.about_img{
-    width: 550px;
-    grid-area: img;
-}
-
-.about{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-areas: "info img";
-}
-
-.cont_abt_info{
-    width: 550px;
-    margin-top: 64px;
-    /* background-color: aqua; */
-    grid-area: info;
-}
-
-.cont_abt_info_title{
-    color: #EF6D58;
-    text-transform: uppercase;
-    letter-spacing: 3px;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 32px;
-    font-family: 'Epilogue';
-}

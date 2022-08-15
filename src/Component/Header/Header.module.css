@@ -5,3 +5,9 @@
     margin: 0 54px;
     color: #fff;
 }
+
+@media screen and (max-width: 992px) {
+  .n_btn{
+    display: none;
+  }
+}

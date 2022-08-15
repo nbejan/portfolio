@@ -1,1 +1,72 @@
-/*Pic*/
+/*About*/
+.about_img{
+    width: 550px;
+    grid-area: img;
+}
+
+.about{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "info img";
+}
+
+.cont_abt_info{
+    width: 550px;
+    margin-top: 64px;
+    /* background-color: aqua; */
+    grid-area: info;
+}
+
+.cont_abt_info_title{
+    color: #EF6D58;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    font-family: 'Epilogue';
+}
+
+.cont_abt_info_h1{
+    font-family: 'Epilogue';
+    font-weight: 800;
+    font-size: 72px;
+    line-height: 80px;
+    letter-spacing: -2px;
+    color: #FFFFFF;
+}
+
+.cont_abt_info_p{
+    color:rgba(255, 255, 255, 0.64);
+    font-family: 'Epilogue';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+}
+
+/*Button*/
+
+.exp{
+    background-color: #EF6D58;
+    font-weight: 700;
+    font-size: 10px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+
+.exp:hover{
+    background-color: #fd9068;
+}
+
+.btn{
+    margin-left: 46px;
+}
+
+.cont_abt_info_btn{
+    width: 107px;
+    height: 38px;
+    border: 0;
+    border-radius: 6px;
+}
+/*About*/
