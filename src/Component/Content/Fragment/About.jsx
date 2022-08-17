@@ -1,8 +1,7 @@
 import pic from '../../img/pic.png'
 import { Button } from 'react-bootstrap';
 import css from './About.module.css'
-import CardFeatures from './AboutCards/CardFeatures';
-import CardPro from './AboutCards/CardPro';
+
 
 function About() {
     return (
@@ -17,10 +16,7 @@ function About() {
                     <Button className={css.btn} variant="outline-light">Contact me</Button>
                 </div>
 
-                <div className={css.about_card}>
-                    <CardFeatures />
-                    <CardPro />
-                </div>
+                
             </div>
         </div>
     );

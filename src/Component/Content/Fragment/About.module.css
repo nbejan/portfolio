@@ -72,8 +72,3 @@
 /*About*/
 
 
-.about_card{
-    margin: 200px auto;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-}

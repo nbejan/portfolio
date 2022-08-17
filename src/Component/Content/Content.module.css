@@ -3,3 +3,12 @@
     padding: 120px;
 }
 
+.about_card{
+    margin: 200px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    border-top: 1px solid #5d6085;
+    padding-top: 142px;
+    margin-top: 72px;
+}
+
