@@ -1,0 +1,18 @@
+.title{
+    color: #EF6D58;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    font-family: 'Epilogue';
+    margin-bottom: 36px;
+}
+.subtitle{
+    font-family: 'Epilogue';
+    font-weight: 800;
+    font-size: 72px;
+    line-height: 80px;
+    letter-spacing: -2px;
+    color: #FFFFFF;
+}

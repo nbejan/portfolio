@@ -1,0 +1,15 @@
+.cardImg{
+    width: 60px;
+    height: 60px;
+    margin-bottom: 41px;
+}
+.title{
+    font-weight: 700;
+    font-size: 24px;
+}
+.text{
+    color: rgba(57, 20, 0, 0.64);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+}
